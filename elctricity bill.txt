@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class ElectricityBill {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+        int units = 250;
+        double costPerUnit = 6.5; 
+        double totalBill = units * costPerUnit;
+        System.out.println("\n---- Electricity Bill ----");
+        System.out.println("Customer Name: " + name);
+        System.out.println("Units Consumed: " + units);
+        System.out.println("Cost per Unit: ₹" + costPerUnit);
+        System.out.println("Total Bill Amount: ₹" + totalBill);
+    }
+}
+
+
+Enter your name: asin
+
+---- Electricity Bill ----
+Customer Name: asin
+Units Consumed: 250
+Cost per Unit: ?6.5
+Total Bill Amount: ?1625.0
+
+=== Code Execution Successful ===
