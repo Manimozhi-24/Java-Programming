@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Sample {
+    public static void main(String[] args) {
+        System.out.println("Enter the num: ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        if (a % 2 == 0) {
+            System.out.println(a + " is even");
+        } else {
+            System.out.println(a + " is odd");
+        }
+    }
+}
+
+
+
+Enter the num: 
+5
+5 is odd
+
+=== Code Execution Successful ===
